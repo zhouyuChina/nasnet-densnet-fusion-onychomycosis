@@ -68,6 +68,16 @@
 pip install -r requirements.txt
 ```
 
+### 获取模型文件
+由于GitHub文件大小限制，模型文件需要单独下载。请参考 [MODEL_DOWNLOAD.md](MODEL_DOWNLOAD.md) 获取详细说明。
+
+```bash
+# 快速获取预训练权重
+mkdir -p weights
+wget https://github.com/fchollet/deep-learning-models/releases/download/v0.8/densenet121_weights_tf_dim_ordering_tf_kernels_notop.h5 -O weights/densenet121_weights_tf_dim_ordering_tf_kernels_notop.h5
+wget https://github.com/fchollet/deep-learning-models/releases/download/v0.6/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5 -O weights/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+```
+
 ### 模型训练
 ```bash
 # 训练DenseNet模型

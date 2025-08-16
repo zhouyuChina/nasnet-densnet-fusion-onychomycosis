@@ -121,7 +121,6 @@ Thumbs.db
 *.pth
 *.pt
 *.onnx
-!onnx_model/*.onnx
 logs/
 save/
 uploads/
@@ -130,3 +129,16 @@ blurred/
 weights/*.h5
 result.png
 app-bak.py
+
+# Large model files (GitHub file size limits)
+onnx_model/*.onnx
+weights/*.h5
+weights/*.pkl
+weights/*.pth
+weights/*.pt
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.log
