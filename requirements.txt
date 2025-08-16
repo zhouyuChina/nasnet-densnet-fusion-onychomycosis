@@ -1,0 +1,14 @@
+
+opencv-python~=4.9.0.80
+scipy~=1.11.1
+matplotlib~=3.7.2
+seaborn~=0.12.2
+pandas~=2.0.3
+tensorflow~=2.15.0
+scikit-learn~=1.2.1
+pillow~=9.4.0
+tqdm~=4.65.0
+onnxruntime~=1.17.1
+streamlit~=1.33.0
+numpy
+# python 3.11.5
