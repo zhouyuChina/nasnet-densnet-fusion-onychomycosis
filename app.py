@@ -84,7 +84,7 @@ def model_predict(session, input_data, original_img):
     top_idx = np.argmax(predictions)
     confidence = float(predictions[top_idx])
 
-    if confidence >= 0.62:
+    if confidence >= 0.85:
         return dct[top_idx], confidence
     else:
         return "blurred" if is_blur_fft(original_img) else "UNKNOWN", confidence
